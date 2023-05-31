@@ -11,7 +11,9 @@ This is a simple notes app built with React and Django.
 ```
 git clone https://github.com/LondheShubham153/django-notes-app.git
 ```
+Add user to docker group
 
+usermod -aG docker $USER (be ubuntu user)
 2. Build the app
 ```
 docker build -t notes-app .
